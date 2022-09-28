@@ -1,0 +1,62 @@
+/* slider */
+.rate {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.subrate {
+  width: 95%;
+  height: fit-content;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 8px;
+  width: 400px;
+  border-radius: 15px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.show img {
+  height: 30px;
+}
+
+.showbtn {
+  height: 200px;
+  color: blue;
+  display: block;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.a {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.b {
+  font-size: small;
+}
+
+.c {
+  font-size: small;
+  font-weight: 600;
+}
+
+@media all and (min-width: 401px) and (max-width: 720px) {
+  .subrate {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,45 +1,3 @@
-.otm_item_container {
-  background-color: #ffffff;
-  height: 57.25rem;
-  width: 42.25rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.otm_item_container > h1 {
-  font-size: 3rem;
-  width: 41.875rem;
-  padding-top: 1rem;
-}
-
-.otm_item_container > p {
-  font-size: 1.125rem;
-  margin: 0 0 2.5rem;
-  font-weight: 400;
-  color: rgb(51 51 51);
-}
-
-.otm_grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.847rem;
-}
-
-.otm_grid > div > div {
-  height: 12rem;
-  width: 13.3125rem;
-  border-radius: 1rem;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-.otm_grid > div > div > img {
-  height: 12rem;
-  width: 13.3125rem;
-  border-radius: 1rem;
-  object-fit: cover;
-}
-
 .otm:hover {
   transform: translate3d(0px, 0px, 0px) scale3d(1.08, 1.08, 1) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
@@ -47,23 +5,125 @@
   transform-style: preserve-3d;
   object-fit: cover;
 }
-
-.otm_grid > div > p {
+/* slider */
+.tag,
+.tag1,
+.tag2,
+.tag3,
+.tag4 {
+  width: 14rem;
+  height: 9.9925rem;
+  border-radius: 1rem;
+  background-size: cover;
+}
+.tag h2,
+.tag1 h2,
+.tag2 h2,
+.tag3 h2 {
+  position: absolute;
   font-size: 0.875rem;
-  color: #357471;
+  font-weight: 700;
+  background-color: #fce94e;
+  color: #323232;
+  margin: 0.5rem 0 0 0.5rem;
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+.tag1 {
+  background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/62fb492cddaec74cb5161350_8-9%20Meals-p-500.png");
+}
+.tag {
+  background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/62fb492393696224964e1910_6-7%20Meals-p-500.png");
+}
+.tag2 {
+  background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/62fb492794414230d9d0e1be_10-11%20Meals-p-500.png");
+}
+.tag3 {
+  background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/62fb4927a7912ad1a7770be8_12%20Meals-p-500.png");
+}
+.tag4 {
+  background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/62fb492937b0377ca6310cb0_4-5%20Meals-p-500.png");
+}
+/* eat */
+.EatBox {
+  margin-top: 60px;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Box1 {
+  top: 30%;
+  width: 700px;
+  position: absolute;
+  left: 0;
+  right: auto;
+  bottom: auto;
+  padding: 46px;
+  background-color: #fff;
+  text-align: left;
 }
 
-.otm_grid > div > h3 {
-  font-size: 1rem;
-  color: #303030;
-  margin-bottom: -0.875rem;
+.imageBox ,.imageBox1{
+  width: 60%;
 }
 
-.otm_btn {
-  border: none;
-  height: 3rem;
-  width: 100%;
-  background-color: #3167fa;
-  color: #fff;
-  font-size: 1.125rem;
+@media only screen and (max-width: 600px) {
+  .EatBox {
+    flex-direction: column;
+    position: static;
+    width: 100%;
+    align-items: center;
+  }
+  .imageBox ,.imageBox1{
+    width: 100%;
+  }
+  .Box1 {
+    width: 100%;
+    position: static;
+    text-align: center;
+  }
+  .Box1 > button {
+    width: 100%;
+  }
+  .healthBox {
+    flex-direction: column-reverse;
+    position: static;
+    width: 100%;
+    align-items: center;
+  }
+  .Box2 {
+    width: 100%;
+    position: static;
+    text-align: center;
+  }
+}
+
+/*       {/* *********** health********************** */
+
+.healthBox {
+  margin-top: 60px;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Box2 {
+  position: absolute;
+  top:20%;
+  width: 750px;
+  height: 500px;
+  left: auto;
+  right: 0;
+  bottom: auto;
+  padding: 46px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.Box2 span {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
 }

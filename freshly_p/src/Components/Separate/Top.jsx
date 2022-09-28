@@ -29,8 +29,9 @@ const TopSection = () => {
           <h2
             style={{
               position: "absolute",
-              bottom: "66%",
+              // bottom: "80%",
               left: "38%",
+              top:"15%",
               textTransform: "capitalize",
               color: "white",
               fontWeight: "bolder",
@@ -100,10 +101,11 @@ const TopSection = () => {
                 </Button>
               </Link>
             </HStack>
-            <Text fontSize="15px" fontWeight="bold" p="20px">
-              Enjoy flexible weekly plans, with meals as low as
-              <Link color="blue">$8.99/serving</Link>. The bigger your box, the
-              more you'll save!
+            <Text fontSize="15px"  p="20px">
+              By continuing, you agree to our {" "}
+              <Link style={{color:"blue",textDecoration:"underline"}} >Terms</Link> and{" "}
+              <Link style={{color:"blue",textDecoration:"underline"}} >Privacy Policy</Link> {" "}& will receive emails from
+              Freshly.
             </Text>
           </VStack>
         </Box>
