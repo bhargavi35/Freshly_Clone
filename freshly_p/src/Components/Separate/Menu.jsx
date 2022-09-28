@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex, Image, Button, Text, Box } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import style from "./style.css";
+import "./style.css"
 const OnTheMenu = () => {
   return (
     <Box
@@ -45,10 +45,10 @@ const OnTheMenu = () => {
                 src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/6326bb5ce576ad86fd7fd56c_production-meal-image-d5ef4016-ed9b-4aac-93e1-109ae9b9b6ba-p-500.jpeg"
               />
               <Text fontWeight="bold">Philly-ish Cheesesteak</Text>
-              <Text font-size="1rem" color="#303030" margin-bottom="-0.875rem">
+              <Text fontSize="1rem" color="#303030" margin-bottom="-0.875rem">
                 540 Cal| Gluten Free|
               </Text>
-              <Text font-size=" 0.875rem" color="#357471">
+              <Text fontSize=" 0.875rem" color="#357471">
                 Single-Serve
               </Text>
             </Box>
@@ -60,8 +60,8 @@ const OnTheMenu = () => {
                 src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/6326bb60a847d2a0e5565974_production-meal-image-7a187b20-0f13-45d7-9417-5a1b9e0f9662-p-500.jpeg"
               />
               <Text fontWeight="bold">Oven-Baked BBQ Pork Chop</Text>
-              <Text font-size="1rem" color="#303030" margin-bottom="-0.875rem">580 Cal | Gluten Free |</Text>
-              <Text ffont-size=" 0.875rem" color="#357471">Single-Serve</Text>
+              <Text fontSize="1rem" color="#303030" margin-bottom="-0.875rem">580 Cal | Gluten Free |</Text>
+              <Text  fontSize=" 0.875rem" color="#357471">Single-Serve</Text>
             </Box>
             <Box>
               <Image
@@ -71,8 +71,8 @@ const OnTheMenu = () => {
                 src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/6326bb627d27da37a7237b9a_production-meal-image-d495faf8-2904-4640-a8fe-f09ce9b4fb60-p-500.jpeg"
               />
               <Text fontWeight="bold">Sliced Turkey & Carolina Gold Sauce</Text>
-              <Text font-size="1rem" color="#303030" margin-bottom="-0.875rem">480 Cal | Gluten Free |</Text>
-              <Text ffont-size=" 0.875rem" color="#357471">Single-Serve</Text>
+              <Text fontSize="1rem" color="#303030" margin-bottom="-0.875rem">480 Cal | Gluten Free |</Text>
+              <Text  fontSize=" 0.875rem" color="#357471">Single-Serve</Text>
             </Box>
           </Flex>
 
@@ -85,8 +85,8 @@ const OnTheMenu = () => {
                 src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/62809ed29666d0adc9cdc607_production-meal-image-aa45ad57-f3bd-41bf-b74b-7906066bdd24-p-500.jpeg"
               />
               <Text fontWeight="bold">Cuban Mojo Shrimp</Text>
-              <Text font-size="1rem" color="#303030" margin-bottom="-0.875rem">410 Cal | Gluten Free |</Text>
-              <Text ffont-size=" 0.875rem" color="#357471">Single-Serve</Text>
+              <Text fontSize="1rem" color="#303030" margin-bottom="-0.875rem">410 Cal | Gluten Free |</Text>
+              <Text  fontSize=" 0.875rem" color="#357471">Single-Serve</Text>
             </Box>
             <Box>
               <Image
@@ -96,8 +96,8 @@ const OnTheMenu = () => {
                 src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/6326bb6994fefe024f228bb0_production-meal-image-43b9ce48-cbff-4c29-9ee8-58fc3974cdff-p-500.jpeg"
               />
               <Text fontWeight="bold">Oven-Glazed Chicken Marsala</Text>
-              <Text font-size="1rem" color="#303030" margin-bottom="-0.875rem">350 Cal | Gluten Free |</Text>
-              <Text ffont-size=" 0.875rem" color="#357471">Single-Serve</Text>
+              <Text fontSize="1rem" color="#303030" margin-bottom="-0.875rem">350 Cal | Gluten Free |</Text>
+              <Text  fontSize=" 0.875rem" color="#357471">Single-Serve</Text>
             </Box>
             <Box>
               <Image
@@ -107,8 +107,8 @@ const OnTheMenu = () => {
                 src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/6326bb6cea9e2c276a62bc87_production-meal-image-4e60254a-6b6e-461b-9ec7-a25a2035949f-p-500.jpeg"
               />
               <Text fontWeight="bold">Creamy Chicken Fettuccine Alfredo</Text>
-              <Text font-size="1rem" color="#303030" margin-bottom="-0.875rem">360 Cal | Has Gluten |</Text>
-              <Text ffont-size=" 0.875rem" color="#357471">Single-Serve</Text>
+              <Text fontSize="1rem" color="#303030" margin-bottom="-0.875rem">360 Cal | Has Gluten |</Text>
+              <Text  fontSize=" 0.875rem" color="#357471">Single-Serve</Text>
             </Box>
           </Flex>
         </Box>
