@@ -1,0 +1,33 @@
+.navbar {
+  height: fit-content;
+  padding: 16px 30px;
+  width: 100%;
+  position: static;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.links {
+  font-weight: 600;
+}
+
+.links:hover {
+  color: rgb(23, 23, 248);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    height: 60px;
+    padding: 10px;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+  }
+
+  .hide {
+    font-size: 12px;
+  }
+}

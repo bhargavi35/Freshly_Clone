@@ -1,0 +1,69 @@
+.otm_item_container {
+  background-color: #ffffff;
+  height: 57.25rem;
+  width: 42.25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.otm_item_container > h1 {
+  font-size: 3rem;
+  width: 41.875rem;
+  padding-top: 1rem;
+}
+
+.otm_item_container > p {
+  font-size: 1.125rem;
+  margin: 0 0 2.5rem;
+  font-weight: 400;
+  color: rgb(51 51 51);
+}
+
+.otm_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.847rem;
+}
+
+.otm_grid > div > div {
+  height: 12rem;
+  width: 13.3125rem;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.otm_grid > div > div > img {
+  height: 12rem;
+  width: 13.3125rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.otm:hover {
+  transform: translate3d(0px, 0px, 0px) scale3d(1.08, 1.08, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transition: 1s;
+  transform-style: preserve-3d;
+  object-fit: cover;
+}
+
+.otm_grid > div > p {
+  font-size: 0.875rem;
+  color: #357471;
+}
+
+.otm_grid > div > h3 {
+  font-size: 1rem;
+  color: #303030;
+  margin-bottom: -0.875rem;
+}
+
+.otm_btn {
+  border: none;
+  height: 3rem;
+  width: 100%;
+  background-color: #3167fa;
+  color: #fff;
+  font-size: 1.125rem;
+}
