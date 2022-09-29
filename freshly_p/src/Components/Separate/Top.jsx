@@ -31,7 +31,7 @@ const TopSection = () => {
               position: "absolute",
               // bottom: "80%",
               left: "38%",
-              top:"15%",
+              top:"11%",
               textTransform: "capitalize",
               color: "white",
               fontWeight: "bolder",
