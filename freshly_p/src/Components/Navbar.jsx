@@ -52,7 +52,7 @@ const Navbar = () => {
         gap={{ sm: "5px", md: "15px", lg: "20px" }}
       >
         <Center>
-          <Link>
+          <Link to="/">
             <Image
               width="100px"
               src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg"
@@ -73,7 +73,7 @@ const Navbar = () => {
               Gifts
             </Link>
             <Link
-              to="/"
+              to="#"
               onClick={onOpen}
               className={`${styles.links} ${styles.hide}`}
             >

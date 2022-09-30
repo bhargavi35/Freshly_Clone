@@ -1,17 +1,14 @@
-import {
-  Box,
-  Flex,
-  Text,
-  Button,
-  Image,
-  Input,
-} from "@chakra-ui/react";
+import { Box, Flex, Text, Button, Image, Input } from "@chakra-ui/react";
 import React from "react";
 import "./style.css";
-
+import Slider from "./Slider";
 const Eat = () => {
   return (
     <>
+      <Text fontSize="45px" fontWeight="700" mt="70px" mb="40px">
+        What Others Are Saying
+      </Text>
+      <Slider />
       <Box className="EatBox">
         {/* Left text */}
         <Box className="Box1">

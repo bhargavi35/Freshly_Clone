@@ -5,7 +5,6 @@ import "./style.css"
 const OnTheMenu = () => {
   return (
     <Box
-      //   className={style.backg}
       backgroundImage="url('https://assets-global.website-files.com/5d03b4e130118314af624b20/61f127577dd58a9659fa4545_22_Homepage_OntheMenu_BG_1440%20x%20890.jpg')"
       backgroundRepeat="no-repeat"
       backgroundSize="cover"
@@ -113,7 +112,7 @@ const OnTheMenu = () => {
           </Flex>
         </Box>
 
-        <Link to="/plansandmenus">
+        <Link to="/plansmenu">
           <Button
             w="100%"
             borderRadius="0"

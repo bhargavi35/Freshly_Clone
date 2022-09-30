@@ -74,8 +74,8 @@ const Footer = () => {
           <Stack align={"flex-start"}>
             <Heading fontSize={15}>Learn More</Heading>
             <Link
+              to="/plansmenu"
               style={{ cursor: "pointer", textDecoration: "none" }}
-              to={"#"}
             >
               Plans & Menu
             </Link>

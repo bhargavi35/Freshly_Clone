@@ -81,10 +81,7 @@ const Plans = () => {
           Sign Up Now
         </Button>
       </RouterLink>
-      <Text fontSize="45px" fontWeight="700" mt="70px" mb="40px">
-        What Others Are Saying
-      </Text>
-      <Slider />
+    
     </Box>
   );
 };

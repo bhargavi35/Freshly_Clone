@@ -59,7 +59,7 @@ export const Login = () => {
           color="gray.700"
         >
           <Flex flex={1} justify="space-between">
-            <Link to="#">Plans & Menu</Link>
+            <Link to="/plansmenu">Plans & Menu</Link>
             <Link to="#">About</Link>
             <Link to="#">For Bussiness</Link>
             <Link to="#">Gifts</Link>
