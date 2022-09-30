@@ -28,7 +28,7 @@ export const Faq = () => {
       >
         Common Questions
       </Heading>
-      <Accordion allowMultiple>
+      <Accordion defaultIndex={[0]} allowMultiple>
         <AccordionItem height={"fit-content"}>
           <h3>
             <AccordionButton>

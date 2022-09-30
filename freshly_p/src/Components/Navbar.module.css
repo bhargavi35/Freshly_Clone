@@ -57,3 +57,20 @@
     font-size: 12px;
   }
 }
+
+/* menu */
+.showdata {
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
+  object-fit: contain;
+  width: 100%;
+}
+.zoom {
+  transition: transform 0.2s; /* Animation */
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}

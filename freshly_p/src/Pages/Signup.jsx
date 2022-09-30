@@ -76,7 +76,7 @@ export const SignUp = () => {
                 {id === "/deliverydate" ? (
                   <div style={{ display: "flex" }}>
                     <Link
-                      to="/plans"
+                      to="/plansmenu"
                       style={{
                         textDecoration: "underline",
                         color: "blue",

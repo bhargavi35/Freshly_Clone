@@ -64,7 +64,8 @@
   text-align: left;
 }
 
-.imageBox ,.imageBox1{
+.imageBox,
+.imageBox1 {
   width: 60%;
 }
 
@@ -75,7 +76,8 @@
     width: 100%;
     align-items: center;
   }
-  .imageBox ,.imageBox1{
+  .imageBox,
+  .imageBox1 {
     width: 100%;
   }
   .Box1 {
@@ -111,7 +113,7 @@
 
 .Box2 {
   position: absolute;
-  top:20%;
+  top: 20%;
   width: 750px;
   height: 500px;
   left: auto;
@@ -126,4 +128,72 @@
   color: blue;
   text-decoration: underline;
   cursor: pointer;
+}
+
+/* menupage */
+.onmenu {
+  text-align: center;
+  width: 65%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.onmenu > h1 {
+  font-size: 48px;
+  color: #333333;
+  font-weight: bold;
+}
+.onmenu a,.lastSec a{
+  text-decoration: underline;
+  color: blue;
+}
+.menuDrop {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.selectMenu {
+  margin-left: 5px;
+}
+.dietPlan {
+  padding: 64px 32px;
+}
+.dietPlan > h1 {
+  text-align: center;
+  justify-content: center;
+  margin: 0px 0px 10px 0px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.dietPlan > p {
+  text-align: center;
+  margin: auto;
+  width: 56%;
+}
+.lastSec {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  justify-content: center;
+  width: 85%;
+  margin: auto;
+}
+.lastSec > div > img {
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+}
+.lastSec > div {
+  margin: auto;
+  text-align: center;
+}
+.lastSec > div > h4 {
+  font-size: 25px;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.lastSec > div > p {
+  margin-top: 15px;
 }
