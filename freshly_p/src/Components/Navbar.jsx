@@ -212,7 +212,7 @@ const Navbar = () => {
           <HStack>
             <Link to="/login">
               <Button
-                colorScheme="black"
+                colorScheme="black.900"
                 variant="ghost"
                 size={{ sm: "xs", md: "md", lg: "lg" }}
                 className={styles.hide}
