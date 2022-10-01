@@ -87,3 +87,12 @@ button:hover {
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
+
+/* cart */
+.chinna{
+  display: grid;
+  margin: 5%;
+  padding: 10%;
+  grid-template-columns: repeat(2,1fr);
+  text-align: justify;
+}

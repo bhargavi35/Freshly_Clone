@@ -70,7 +70,7 @@ const Plans = () => {
         Shipping and tax added at checkout. Prices are rounded for your
         convenience.
       </Text>
-      <RouterLink color="green.800" to="/choose">
+      <RouterLink color="green.800" to="/signup">
         <Button
           colorScheme="messenger"
           variant="solid"
