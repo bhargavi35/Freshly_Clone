@@ -157,7 +157,6 @@ export const MenuModal = ({ data }) => {
                     <AccordionButton>
                       <Box flex="1" textAlign="left">
                         <Text
-                          color="blue"
                           fontWeight={"semibold"}
                           fontSize="14px"
                           letterSpacing={"3"}

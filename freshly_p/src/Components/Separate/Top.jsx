@@ -54,7 +54,7 @@ const TopSection = () => {
               Balanced Meal for busy lives.
             </Text>
             <HStack p="20px">
-              <Link to="/plans">
+              <Link to="/plansmenu">
                 <Button
                   borderColor="blue"
                   color="blue"
