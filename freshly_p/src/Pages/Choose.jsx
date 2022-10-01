@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button, Image } from "@chakra-ui/react";
+import { Box, Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import "./index.css";
 import Footer from "../Components/Footer";
@@ -18,7 +18,7 @@ const Choose = () => {
           <Box id="window">
             <Box id="special">
               <Box id="fun">
-                <b>Sunday</b>, Feb 27
+                <b>Monday</b>, Oct 3
               </Box>
 
               <Box style={{ display: "flex" }}>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import style from "./style.module.css";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
+import { Button } from "@chakra-ui/react";
 
 const Slider = () => {
   let arr;
@@ -84,9 +85,9 @@ const Slider = () => {
             </div>
           ))}
         </div>
-        <button onClick={toggleCount} className={style.showbtn}>
+        <Button onClick={toggleCount} className={style.showbtn}>
           <MdKeyboardArrowRight />
-        </button>
+        </Button>
       </div>
     </div>
   );
