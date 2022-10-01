@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import "./index.css";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
-const Choose = () => {
+const Choose = ({data}) => {
+  // console.log(data)
   return (
     <>
       <Navbar />

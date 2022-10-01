@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ModalBody, ModalCloseButton } from "@chakra-ui/react";
 import {
   Box,
@@ -14,10 +15,11 @@ import {
   AccordionIcon,
   ModalHeader,
   SimpleGrid,
+  Button,
 } from "@chakra-ui/react";
 import ing from "../../Assests/Home/Ingre.jpg";
 import "../../index.css";
-export const MenuModal = ({ data }) => {
+export const MenuModal = ({data}) => {
   // console.log(data);
   return (
     <Box className="Menumodal" overflow={"scroll"}>
@@ -68,7 +70,9 @@ export const MenuModal = ({ data }) => {
             </Text>
             <Image style={{ width: "80%", cursor: "pointer" }} src={ing} />
           </Box>
-          {/* <ModalCloseButton /> */}
+          <Link to="/cart">
+            <Button colorScheme={"blue"}>Add to Cart</Button>
+          </Link>
         </Box>
 
         <ModalBody>

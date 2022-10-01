@@ -72,9 +72,9 @@ const Slider = () => {
   return (
     <div style={{ textAlign: "center", marginTop: "30px" }}>
       <div className={style.rate}>
-        <button onClick={toggleCount} className={style.showbtn}>
+        <Button onClick={toggleCount} className={style.showbtn}>
           <MdKeyboardArrowLeft />
-        </button>
+        </Button>
         <div className={style.subrate}>
           {arr.map((e) => (
             <div key={e.id} className={style.show}>
