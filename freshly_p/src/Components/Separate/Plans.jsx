@@ -1,7 +1,6 @@
 import React from "react";
 import { Flex, Image, Button, Text, Box } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
-import Slider from "./Slider";
 import "./style.css";
 const Plans = () => {
   return (
@@ -24,11 +23,7 @@ const Plans = () => {
       </Text>
       <Flex gap="20px" justify="space-between" mt="40px">
         <Box>
-          {/* <Image
-            w="200px"
-            borderRadius="20px"
-            src="https://assets-global.website-files.com/5d03b4e130118314af624b20/62fb492937b0377ca6310cb0_4-5%20Meals-p-500.png"
-          /> */}
+         
           <Box className="tag4"></Box>
           <Text style={{ color: "teal" }} fontSize="25px" fontWeight="bold">
             4-5 Meals
@@ -76,7 +71,12 @@ const Plans = () => {
         convenience.
       </Text>
       <RouterLink color="green.800" to="/choose">
-        <Button colorScheme="messenger" variant="solid"w="10%" borderRadius="0">
+        <Button
+          colorScheme="messenger"
+          variant="solid"
+          w="10%"
+          borderRadius="0"
+        >
           Get Started
         </Button>
       </RouterLink>

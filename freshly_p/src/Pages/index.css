@@ -81,3 +81,9 @@ button:hover {
   text-align: center;
   font-size: 14px;
 }
+
+/* menumodal */
+.Menumodal{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}

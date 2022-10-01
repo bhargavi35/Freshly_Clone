@@ -85,6 +85,7 @@ export const Login = () => {
               _hover={{
                 bg: "blue",
               }}
+              width={20}
             >
               <Link to="/signup"> Sign Up</Link>
             </Button>
