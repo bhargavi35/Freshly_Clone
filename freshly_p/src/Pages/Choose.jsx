@@ -18,7 +18,7 @@ const Choose = () => {
           <Box id="window">
             <Box id="special">
               <Box id="fun">
-                <b>Monday</b>, Oct 3
+                <b>Monday</b> Oct 3
               </Box>
 
               <Box style={{ display: "flex" }}>
