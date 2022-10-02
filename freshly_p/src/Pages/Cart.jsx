@@ -2,6 +2,7 @@ import React, { useReducer } from "react";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import "./index.css";
+import { Link } from "react-router-dom";
 import {
   Box,
   Button,
@@ -103,7 +104,8 @@ export default function Cart() {
                     dispatch({ type: "ADD_TO_CART", payload: price })
                   }
                   colorScheme={"blue"}
-                  w={100} m={2}
+                  w={100}
+                  m={2}
                 >
                   Add to Cart
                 </Button>
@@ -120,6 +122,9 @@ export default function Cart() {
             </div>
           ))}
         </Grid>
+        <Link to="/choose">
+            <Button w={100} colorScheme={"blue"}>Proceed</Button>
+          </Link>
       </div>
       <Footer />
     </>

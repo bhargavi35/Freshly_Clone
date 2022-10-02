@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./index.css";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
-const Choose = ({data}) => {
+const Choose = ({ data }) => {
   // console.log(data)
   return (
     <>
@@ -112,7 +112,7 @@ const Choose = ({data}) => {
           <Box id="below_text">Scroll for more delivery dates</Box>
           <Box></Box>
           <Box>
-            <Link to="/cart">
+            <Link to="/payment">
               <Button>Next</Button>
             </Link>
           </Box>
