@@ -29,13 +29,14 @@ Vercel : https://freshlyp-8k6hs777h-bhargavi35.vercel.app/
 ### _Following are the Screenshots for the reference_
 
 - **Landing Page**
+
   ![Landing Page](https://miro.medium.com/max/786/1*z8sJI3ZDPtRcY9djRxqXQw.jpeg)
 
 - **Log-in Page**
 
   ![Landing Page](https://miro.medium.com/max/786/1*rY_Pga_LCpym-Y8KoB70IA.jpeg)
 
-- ** Cart Page**
+- **Cart Page**
 
   ![Landing Page](https://miro.medium.com/max/786/1*xR43PMhC3Wb761WGa--VCQ.jpeg)
 
