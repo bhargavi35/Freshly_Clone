@@ -1,4 +1,4 @@
-#Freshly Clone Website
+# Fresly-clone-website
 
 This was a individual project made by me in 5 days.
 
