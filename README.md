@@ -51,3 +51,5 @@ Vercel : https://freshlyp-8k6hs777h-bhargavi35.vercel.app/
 > Freshly.com is a New York-based prepared meal delivery company that delivers throughout the United States. I went through the website and firstly, then I decided to build landing page. I have split the website into parts & divided into some tasks. After that I started working on my project.
 
 ---
+
+Blog Link:https://medium.com/@chellabhargavi2002/cloning-of-freshly-website-99d21b5a10bc
